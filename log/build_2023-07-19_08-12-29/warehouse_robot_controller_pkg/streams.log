@@ -1,0 +1,44 @@
+[3.141s] Invoking command in '/home/olivia/dev_ws/src/warehouse_robot_controller_pkg': PYTHONPATH=/home/olivia/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build install --record /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed
+[3.514s] running egg_info
+[3.515s] creating ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info
+[3.515s] writing ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/PKG-INFO
+[3.516s] writing dependency_links to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/dependency_links.txt
+[3.516s] writing entry points to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/entry_points.txt
+[3.516s] writing requirements to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/requires.txt
+[3.516s] writing top-level names to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/top_level.txt
+[3.516s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.556s] reading manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.557s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.557s] running build
+[3.557s] running build_py
+[3.558s] creating /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build
+[3.558s] creating /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib
+[3.558s] creating /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.558s] copying warehouse_robot_controller_pkg/robot_estimator.py -> /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.558s] copying warehouse_robot_controller_pkg/robot_controller.py -> /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.558s] copying warehouse_robot_controller_pkg/__init__.py -> /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.558s] running install
+[3.594s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.594s]   warnings.warn(
+[3.595s] running install_lib
+[3.596s] creating /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.596s] copying /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_estimator.py -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.596s] copying /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_controller.py -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.596s] copying /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/__init__.py -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.597s] byte-compiling /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_estimator.py to robot_estimator.cpython-310.pyc
+[3.598s] byte-compiling /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_controller.py to robot_controller.cpython-310.pyc
+[3.599s] byte-compiling /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/__init__.py to __init__.cpython-310.pyc
+[3.599s] running install_data
+[3.600s] creating /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index
+[3.600s] creating /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index
+[3.601s] creating /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[3.601s] copying resource/warehouse_robot_controller_pkg -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[3.601s] copying package.xml -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[3.601s] copying launch/controller_estimator.launch.py -> /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[3.601s] running install_egg_info
+[3.603s] Copying ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info to /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg-0.0.0-py3.10.egg-info
+[3.604s] running install_scripts
+[3.631s] Installing robot_controller script to /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[3.631s] Installing robot_estimator script to /home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[3.632s] writing list of installed files to '/home/olivia/dev_ws/build/warehouse_robot_controller_pkg/install.log'
+[3.671s] Invoked command in '/home/olivia/dev_ws/src/warehouse_robot_controller_pkg' returned '0': PYTHONPATH=/home/olivia/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/olivia/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/build install --record /home/olivia/dev_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed

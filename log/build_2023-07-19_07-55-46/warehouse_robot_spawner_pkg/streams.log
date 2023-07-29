@@ -1,0 +1,51 @@
+[7.125s] Invoking command in '/home/olivia/dev_ws/src/warehouse_robot_spawner_pkg': PYTHONPATH=/home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build install --record /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed
+[7.580s] running egg_info
+[7.581s] creating ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info
+[7.581s] writing ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/PKG-INFO
+[7.582s] writing dependency_links to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/dependency_links.txt
+[7.582s] writing entry points to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/entry_points.txt
+[7.582s] writing requirements to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/requires.txt
+[7.582s] writing top-level names to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/top_level.txt
+[7.582s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[7.651s] reading manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[7.653s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[7.653s] running build
+[7.653s] running build_py
+[7.653s] creating /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build
+[7.654s] creating /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib
+[7.654s] creating /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[7.654s] copying warehouse_robot_spawner_pkg/__init__.py -> /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[7.654s] copying warehouse_robot_spawner_pkg/spawn_demo.py -> /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[7.654s] running install
+[7.670s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.670s]   warnings.warn(
+[7.671s] running install_lib
+[7.672s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[7.672s] copying /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/__init__.py -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[7.672s] copying /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/spawn_demo.py -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[7.673s] byte-compiling /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/__init__.py to __init__.cpython-310.pyc
+[7.673s] byte-compiling /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/spawn_demo.py to spawn_demo.cpython-310.pyc
+[7.674s] running install_data
+[7.675s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index
+[7.675s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index
+[7.675s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[7.676s] copying resource/warehouse_robot_spawner_pkg -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[7.676s] copying package.xml -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg
+[7.676s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[7.676s] copying launch/gazebo_world.launch.py -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[7.676s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds
+[7.676s] copying ./worlds/warehouse.world -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds/
+[7.698s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models
+[7.698s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse
+[7.698s] copying ./models/small_warehouse/model.sdf -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[7.767s] copying ./models/small_warehouse/model.config -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[7.977s] creating /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot
+[7.977s] copying ./models/mobile_warehouse_robot/model.sdf -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[8.045s] copying ./models/mobile_warehouse_robot/model.config -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[8.069s] copying ./worlds/warehouse.world -> /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/
+[8.069s] running install_egg_info
+[8.071s] Copying ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info to /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg-0.0.0-py3.10.egg-info
+[8.072s] running install_scripts
+[8.098s] Installing spawn_demo script to /home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/warehouse_robot_spawner_pkg
+[8.099s] writing list of installed files to '/home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/install.log'
+[8.134s] Invoked command in '/home/olivia/dev_ws/src/warehouse_robot_spawner_pkg' returned '0': PYTHONPATH=/home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/olivia/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/build install --record /home/olivia/dev_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed
